@@ -1,0 +1,38 @@
+.inputs {
+    max-width   : 600px;
+    margin-right: 60px;
+
+    &__inner {
+        @include flex;
+        justify-content : center;
+        flex-direction  : column;
+        padding         : 40px;
+        background-color: lightpink;
+        border-radius   : 5px;
+    }
+
+    &__title {
+        flex-grow    : 3;
+        font-size    : 28px;
+        margin-bottom: 30px;
+    }
+
+    &__name-label {
+        font-size    : 20px;
+        margin-bottom: 15px;
+    }
+
+    &__name-input {
+        margin-bottom: 10px;
+        padding      : 10px;
+        font-size    : 18px;
+    }
+}
+
+
+.MuiInput-underline {
+
+    &::before {
+        border-bottom: none !important;
+    }
+}

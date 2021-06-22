@@ -1,0 +1,7 @@
+.script {
+    @include flex;
+    padding        : 80px;
+    align-items    : flex-start;
+    justify-content: center;
+    font-family    : Roboto, Arial, sans-serif;
+}

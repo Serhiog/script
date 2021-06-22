@@ -1,0 +1,121 @@
+.dialog {
+
+    &__list {
+        @include flex;
+        align-items     : flex-start;
+        background-color: mediumaquamarine;
+        padding         : 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    &__wrapper {
+        border-radius: 24px;
+        max-width    : 800px;
+        @include flex;
+        flex-direction: column;
+        align-items   : flex-start;
+    }
+
+    &__title {
+        align-self      : center;
+        color           : white;
+        background-color: yellowgreen;
+        text-align      : center;
+        padding         : 20px;
+        border-radius   : 10px;
+    }
+
+    &__manager {
+        background-color: peachpuff;
+        border-radius   : 20px;
+        padding         : 18px;
+        font-size       : 22px;
+    }
+
+    &__system {
+        background-color: indianred;
+        border-radius   : 20px;
+        padding         : 3px;
+        display         : block;
+        font-size       : 19px;
+        max-width       : 563px;
+        text-align      : center;
+    }
+
+    &__client {
+        background-color: whitesmoke;
+        border-radius   : 20px;
+        padding         : 13px;
+        display         : inline;
+        font-size       : 19px;
+    }
+
+    &__attention {
+        text-decoration: underline;
+        font-weight    : 700;
+        font-size: 18px;
+    }
+
+    &__input {
+        display      : block;
+        padding      : 16px;
+        color        : 39px;
+        border-radius: 15px;
+        font-size    : 22px;
+    }
+
+    &__nums {
+        color      : red;
+        font-weight: 700;
+    }
+
+    &__item {
+        margin-bottom: 30px;
+    }
+
+    &__get-person-btn {
+        font-size       : 20px;
+        padding         : 20px;
+        background-color: slategrey;
+        border-radius   : 10px;
+    }
+
+    &__item--system {
+        flex-basis: 100%;
+    }
+
+    &__item--client {
+        flex-basis: 60%;
+    }
+
+    &__item--manager {
+        flex-basis: 60%;
+    }
+
+    &__item--bottom-right {
+        align-self: flex-end;
+        flex-basis: auto
+    }
+
+    &__item--btn {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    &__item-comment {
+        font-style : italic;
+        color      : rebeccapurple;
+        font-weight: 600;
+    }
+
+    &__noValue {
+        color      : tomato;
+        font-weight: 600;
+    }
+
+    &__list--calculate {
+        background-color: slategrey;
+        border-radius: 0;
+    }
+}

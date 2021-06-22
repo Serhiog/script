@@ -1,0 +1,9 @@
+.btn-variants {
+    @include flex;
+    width          : 100%;
+    justify-content: space-around;
+
+    & li {
+        flex-basis: auto;
+    }
+}
